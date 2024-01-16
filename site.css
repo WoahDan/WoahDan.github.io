@@ -1,0 +1,106 @@
+h2 {
+    color: white;
+}
+.body {
+    background-color: black;
+    opacity: 0.6;
+    font-family: helvetica;
+}
+
+.header {
+    display: fixed;
+    
+    
+}
+
+.navbar {
+    display: flex;
+    color: seashell;
+    justify-content: space-between;
+}
+
+.headerimg {
+    margin: 10px;
+}
+.nav {
+    display: inline-flex;
+    text-decoration: underline;
+    color: seashell;
+    font-size: 22px;
+    margin: 10px    
+}
+
+a {
+    color: seashell;
+}
+
+a:hover {
+    color: gray;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.bgimg {
+    height: 700px;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.overlaytext {
+    position: absolute;
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: black; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+    width: 1200px;
+   
+}
+
+.tea {
+    text-align: center;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    color: seashell;
+    font-size: 24px;
+}
+
+.imgs {
+    margin: 10px;
+}
+
+.captions {
+    color: seashell;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.imgcontainer {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bottomimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
